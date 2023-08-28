@@ -2,5 +2,6 @@
 
 Some baselines need to be downloaded.
 
-SAT: https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning\\
+SAT: https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning
+\n
 BLIP: https://github.com/salesforce/BLIP
