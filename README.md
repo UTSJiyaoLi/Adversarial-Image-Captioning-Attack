@@ -1,4 +1,5 @@
-# AttICA-Adversarial-Image-Captioning-Attack-with-Attention-Based-Optimization
+# AICAttack: Adversarial Image Captioning Attack
+with Attention-Based Optimization
 
 Some baselines need to be downloaded.
 
