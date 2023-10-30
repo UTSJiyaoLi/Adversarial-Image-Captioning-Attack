@@ -20,7 +20,6 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-# author = jiyli @ UTS
 
 def differential_evolution_att(id, pixels, index, keywords, pick_method='topk', metric='bleu', condition='all-in', image_size=384, max_iter=5, pop_size=20, F=0.5, save_img=False, dataset='coco'):
     """
