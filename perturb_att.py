@@ -45,7 +45,8 @@ def differential_evolution_att(id, pixels, index, keywords, pick_method='topk', 
 
         if pick_method == 'withweight':
             indexes = index
-
+            random_samples = random.choices(index, weights=weights, k=pixels)
+            
         bounds = np.array([(0, 383), (0, 383), (0, 255), (0, 255), (0, 255)] * pixels)    # (x, y, R, G, B) * pixels attacked
         pop = np.zeros((pop_size, len(bounds)))
         for i in range(pop_size):
