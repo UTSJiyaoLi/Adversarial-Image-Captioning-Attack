@@ -17,7 +17,6 @@ The code is written in Python 3.8.
 
 Other Python packages can be installed by running the following command from the command line.
 
-Command line:
 ```
 $ pip install -r requirements.txt
 ```
