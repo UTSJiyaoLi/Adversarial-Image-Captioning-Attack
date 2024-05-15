@@ -21,7 +21,7 @@ Command line:
 $ pip install -r requirements.txt
 ```
 
-To run the attack,
+## Set up
 First, you need to download victim models from the following links:
 
 SAT: https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning
@@ -32,3 +32,11 @@ Secondly, the datasets are available at:
 
 COCO -- https://cocodataset.org/#home
 Flickr8k -- https://www.kaggle.com/datasets/adityajn105/flickr8k
+
+## To attack an image, simply run the `` attack_sat.py", or ``attack_blip_test.py" according to the victim model.
+For example, to attack SAT:
+
+```
+$ python3 attack_sat.py
+```
+
