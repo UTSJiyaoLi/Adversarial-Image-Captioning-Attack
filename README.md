@@ -1,8 +1,14 @@
 # AICAttack: Adversarial Image Captioning Attack
 with Attention-Based Optimization
 
-Some baselines need to be downloaded.
+To run the attack,
+First, you need to download the model from the following links:
 
 SAT: https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning
 
 BLIP: https://github.com/salesforce/BLIP
+
+Secondly, the datasets are available at:
+
+COCO -- https://cocodataset.org/#home
+Flickr8k -- https://www.kaggle.com/datasets/adityajn105/flickr8k
