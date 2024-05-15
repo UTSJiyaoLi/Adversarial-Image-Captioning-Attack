@@ -16,8 +16,8 @@ The code is mainly written in Python 3.8.
 
 Other Python packages can be installed by running the following command from the command line.
 
-```
 Command line:
+```
 $ pip install -r requirements.txt
 ```
 
@@ -34,7 +34,7 @@ COCO -- https://cocodataset.org/#home
 Flickr8k -- https://www.kaggle.com/datasets/adityajn105/flickr8k
 
 ## Evaluation
-To attack an image, simply run the `` attack_sat.py", or ``attack_blip_test.py" according to the victim model.
+To attack an image, simply run the "attack_sat.py", or "attack_blip_test.py" according to the victim model.
 For example, to attack SAT:
 
 ```
@@ -42,11 +42,11 @@ $ python3 attack_sat.py
 ```
 
 ## Test
-To test AICAttack performance, you should run the ``seperate.py".
+To test AICAttack performance, you should run the "seperate.py".
 
-The results are saved in a .json file in ``outputs/jsons/........json".
+The results are saved in a .json file in "outputs/jsons/........json".
 
-You can customize your test run by changing following arguments:
+You can customize your test run by changing the following arguments:
 
 * --name, dataset name;
 * --num_input, number of input data;
