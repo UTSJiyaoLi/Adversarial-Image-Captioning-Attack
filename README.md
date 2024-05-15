@@ -3,7 +3,7 @@
 ## Overview
 This is a Python implementation of ``AICAttack: Adversarial Image Captioning Attack with Attention-Based Optimization''. A GPU environment is required for running the code.
 
-<img width="417" alt="examples" src="https://github.com/UTSJiyaoLi/Adversarial-Image-Captioning-Attack/assets/49722565/28f07199-959d-4ec2-b8d0-17baa522448f">.
+<img width="679" alt="github_exmaple" src="https://github.com/UTSJiyaoLi/Adversarial-Image-Captioning-Attack/assets/49722565/df6d5611-541c-4af9-9e40-74e1069303dc">
 
 ## Requirements:
 The code is mainly written in Python 3.8.
