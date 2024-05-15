@@ -10,13 +10,17 @@ The code is mainly written in Python 3.8.
 > tensorflow==2.7.4
 > 
 > torch==2.0.1
+>
+
+Other Python packages can be installed by running the following command from the command line.
 
 ```
 Command line:
 $ pip install -r requirements.txt
 ```
+
 To run the attack,
-First, you need to download the model from the following links:
+First, you need to download victim models from the following links:
 
 SAT: https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning
 
