@@ -5,9 +5,9 @@ This is a Python implementation of ``AICAttack: Adversarial Image Captioning Att
 
 ## Requirements:
 The code is mainly written in Python 3.8.
-> rouge-score==0.1.2
-> tensorflow==2.7.4
-> torch==2.0.1
+> rouge-score==0.1.2 \\
+> tensorflow==2.7.4 \\
+> torch==2.0.1 \\
 
 ```
 Command line:
