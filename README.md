@@ -14,3 +14,7 @@ Secondly, the datasets are available at:
 
 COCO -- https://cocodataset.org/#home
 Flickr8k -- https://www.kaggle.com/datasets/adityajn105/flickr8k
+```
+command line:
+$ pip install -r requirements.txt
+```
