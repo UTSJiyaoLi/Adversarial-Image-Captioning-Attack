@@ -33,7 +33,8 @@ Secondly, the datasets are available at:
 COCO -- https://cocodataset.org/#home
 Flickr8k -- https://www.kaggle.com/datasets/adityajn105/flickr8k
 
-## To attack an image, simply run the `` attack_sat.py", or ``attack_blip_test.py" according to the victim model.
+## Evaluation
+To attack an image, simply run the `` attack_sat.py", or ``attack_blip_test.py" according to the victim model.
 For example, to attack SAT:
 
 ```
