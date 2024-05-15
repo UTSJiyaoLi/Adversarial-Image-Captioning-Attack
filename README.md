@@ -41,3 +41,23 @@ For example, to attack SAT:
 $ python3 attack_sat.py
 ```
 
+## Test
+To test AICAttack performance, you should run the ``seperate.py".
+
+The results are saved in a .json file in ``outputs/jsons/........json".
+
+You can customize your test run by changing following arguments:
+
+* --name, dataset name;
+* --num_input, number of input data;
+* --pixels, number of pixels to attack;
+* --max_iter, max iteration of DE algorithm;
+* --pop_size, population size;
+* --keywords, number of keywords;
+* --F, mutation scale factor ($\lambda$ in paper);
+* --image_size, input image size;
+* --metric, metrics used for comparing attack performance in DE algorithm;
+* --separate, word-attack or sentence-attack;
+* --attention, Whether use attention;
+* --save_img, Save the perturbed image or not.
+
