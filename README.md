@@ -6,6 +6,7 @@ This is a Python implementation of ``AICAttack: Adversarial Image Captioning Att
 <img width="679" alt="github_exmaple" src="https://github.com/UTSJiyaoLi/Adversarial-Image-Captioning-Attack/assets/49722565/df6d5611-541c-4af9-9e40-74e1069303dc">
 
 ## Requirements:
+
 The code is mainly written in Python 3.8.
 > rouge-score==0.1.2
 > 
@@ -21,7 +22,8 @@ Command line:
 $ pip install -r requirements.txt
 ```
 
-## Set up
+## Datasets and victim models download
+
 First, you need to download victim models from the following links:
 
 SAT: https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning
@@ -36,7 +38,7 @@ Flickr8k -- https://www.kaggle.com/datasets/adityajn105/flickr8k
 Download and put data and model in the root directory.
 
 ## Evaluation
-To attack an image, simply run the "attack_sat.py" or "attack_blip_test.py" according to the victim model.
+To attack an image, simply run the ``attack_sat.py`` or ``attack_blip_test.py`` according to the victim model.
 For example, to attack SAT:
 
 ```
@@ -46,7 +48,7 @@ $ python3 attack_sat.py
 ## Test
 To test AICAttack performance, you should run the "seperate.py".
 
-The results are saved in a .json file in ``outputs/jsons/........jso``.
+The results are saved in a .json file in ``outputs/jsons/........json``.
 
 You can customize your test run by changing the following arguments:
 
