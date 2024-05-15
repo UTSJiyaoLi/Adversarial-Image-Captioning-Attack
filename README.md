@@ -33,6 +33,7 @@ BLIP: https://github.com/salesforce/BLIP
 Secondly, the datasets are available at:
 
 COCO -- https://cocodataset.org/#home
+
 Flickr8k -- https://www.kaggle.com/datasets/adityajn105/flickr8k
 
 Download and put data and model in the root directory.
