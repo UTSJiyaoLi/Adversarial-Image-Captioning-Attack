@@ -48,7 +48,9 @@ $ python3 attack_sat.py
 ## Test
 To test AICAttack performance, you should run the "seperate.py".
 
-``$ python3 seperate.py``
+```
+$ python3 seperate.py
+```
 
 The results are saved in a ``.json`` file in ``outputs/jsons/........json``.
 
