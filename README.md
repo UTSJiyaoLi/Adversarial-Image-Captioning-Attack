@@ -7,7 +7,7 @@ This is a Python implementation of ``AICAttack: Adversarial Image Captioning Att
 
 ## Requirements:
 
-The code is written in Python 3.8.
+The code is written in Python 3.8, with:
 > rouge-score==0.1.2
 > 
 > tensorflow==2.7.4
