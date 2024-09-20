@@ -17,9 +17,9 @@ The code is written in Python 3.8, with:
 
 Other Python packages can be installed by running the following command from the command line.
 
-```
+`
 $ pip install -r requirements.txt
-```
+`
 The checkpoints you need to download: (https://drive.google.com/file/d/1HkhMC_SBRz57puNTN9MqCz-Vut5OzvSA/view?usp=sharing)
 
 ## Datasets and victim models download
@@ -36,22 +36,22 @@ COCO -- https://cocodataset.org/#home
 
 Flickr8k -- https://www.kaggle.com/datasets/adityajn105/flickr8k
 
-Move data and model in the root directory.
+Move data and model to the root directory.
 
 ## Evaluation
-To attack an image, simply run the ``attack_sat.py`` or ``attack_blip_test.py`` according to the victim model.
+To attack an image, run the `attack_sat.py` or `attack_blip_test.py` according to the victim model.
 For example, to attack SAT:
 
-```
+`
 $ python3 attack_sat.py
-```
+`
 
 ## Test
 To test AICAttack performance, you should run the "seperate.py".
 
-```
+`
 $ python3 seperate.py
-```
+`
 
 The results are saved in a ``.json`` file in ``outputs/jsons/........json``.
 
