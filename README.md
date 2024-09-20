@@ -1,7 +1,7 @@
 # AICAttack: Adversarial Image Captioning Attack with Attention-Based Optimization
 
 ## Overview
-This is a Python implementation of ``AICAttack: Adversarial Image Captioning Attack with Attention-Based Optimization''. A GPU environment is required for running the code.
+This is a Python implementation of `AICAttack: Adversarial Image Captioning Attack with Attention-Based Optimization''. A GPU environment is required for running the code.
 
 <img width="679" alt="github_exmaple" src="https://github.com/UTSJiyaoLi/Adversarial-Image-Captioning-Attack/assets/49722565/df6d5611-541c-4af9-9e40-74e1069303dc">
 
@@ -18,7 +18,7 @@ The code is written in Python 3.8, with:
 Other Python packages can be installed by running the following command from the command line.
 
 `
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 `
 The checkpoints you need to download: (https://drive.google.com/file/d/1HkhMC_SBRz57puNTN9MqCz-Vut5OzvSA/view?usp=sharing)
 
@@ -43,30 +43,30 @@ To attack an image, run the `attack_sat.py` or `attack_blip_test.py` according t
 For example, to attack SAT:
 
 `
-$ python3 attack_sat.py
+python3 attack_sat.py
 `
 
 ## Test
 To test AICAttack performance, you should run the "seperate.py".
 
 `
-$ python3 seperate.py
+python3 seperate.py
 `
 
-The results are saved in a ``.json`` file in ``outputs/jsons/........json``.
+The results are saved in a `.json` file in `outputs/jsons/........json`.
 
 You can customize your test run by changing the following arguments:
 
-* ``--name``, dataset name;
-* ``--num_input``, number of input data;
-* ``--pixels``, number of pixels to attack;
-* ``--max_iter``, max iteration of DE algorithm;
-* ``--pop_size``, population size;
-* ``--keywords``, number of keywords;
-* ``--F``, mutation scale factor ($\lambda$ in paper);
-* ``--image_size``, input image size;
-* ``--metric``, metrics used for comparing attack performance in DE algorithm;
-* ``--separate``, word-attack or sentence-attack;
-* ``--attention``, Whether use attention;
-* ``--save_img``, Save the perturbed image or not.
+* `--name`, dataset name;
+* `--num_input`, number of input data;
+* `--pixels`, number of pixels to attack;
+* `--max_iter`, max iteration of DE algorithm;
+* `--pop_size`, population size;
+* `--keywords`, number of keywords;
+* `--F`, mutation scale factor ($\lambda$ in paper);
+* `--image_size`, input image size;
+* `--metric`, metrics used for comparing attack performance in DE algorithm;
+* `--separate`, word-attack or sentence-attack;
+* `--attention`, Whether use attention;
+* `--save_img`, Save the perturbed image or not.
 
